@@ -9,7 +9,7 @@ export const GET: APIRoute = async ({ params, request, site}) =>{
     const blogPosts = await getCollection('blog');
 
 return rss({
-    stylesheet: '/styles/rss.xsl',
+    //stylesheet: '/styles/rss.xsl', este es un estilo para que se vea mejor el rss
     // `<title>` field in output xml
     title: 'Aleks Blog',
     // `<description>` field in output xml
