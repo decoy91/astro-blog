@@ -8,5 +8,5 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   vite: {    plugins: [tailwindcss()],  },
   integrations: [mdx()],
-  site: 'https://example.com',
+  site: 'https://aleks-blog.netlify.app',
 });
